@@ -7,13 +7,13 @@ Process Design Kit (PDK) is a tool for designated users to generate circuit layo
 
 * ``components``
 
-    * Fixed cells: All fixed cells, including ``Directional Coupler``, ``Grating Coupler``, ``MultiMode Interferometer``, ``S bend``, ``Towersemi_bend``, ``Towersemi_taper``, ``Transition`` and ``Towersemi_wg`` are named and designed by **Tower Semiconductor** and cannot be changed.
+    * Fixed cells: All fixed cells, including ``Cross``, ``Directional Coupler``, ``Grating Coupler``, ``MultiMode Interferometer``, ``S bend``, ``Towersemi_bend``, ``Towersemi_taper``, ``Y junction``, ``Transition`` and ``Towersemi_wg`` are named and designed by **Tower Semiconductor** and cannot be changed.
 
-    * Parametrized cells (PCells): Designed by **LDA**, including ``Bend`` and ``Straight``, etc and by **Tower Semiconductor**, including ``Taper`` and ``Waveguide``. Please see ``gpdk > components`` for more designed components by **LDA**.
+    * Parametrized cells (PCells): Designed by **LDA**, including ``Bend`` and ``Straight``, etc and by **Tower Semiconductor**, including ``Taper``. Please see ``gpdk > components`` for more designed components by **LDA**.
 
 * ``examples``
 
-    * ``link.py`` : Test circuit to test if the cell (``mmi1x2_NWG_TE_O``), auto routing, and auto link function works normally under the PDK setting. Please see ``gpdk > examples`` for more circuit examples.
+    * ``link.py`` : Test circuit to test if the cell (``GC_O_TM``), auto routing, and auto link function works normally under the PDK setting. Please see ``gpdk > examples`` for more circuit examples.
 
 * ``technology``
 

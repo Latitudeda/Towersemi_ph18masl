@@ -1,5 +1,5 @@
-Tower Semiconductor PH18MASL Documentation
-=============================================
+Tower Semiconductor PH18MASL documentation
+============================================
 
 .. toctree::
    :hidden:
